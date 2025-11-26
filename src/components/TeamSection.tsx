@@ -11,6 +11,11 @@ const teamMembers = [
     name: "Krishna Singh",
     email: "krishna@example.com",
     linkedin: "https://linkedin.com/in/krishnasingh"
+  },
+  {
+    name: "Aman Chaurasia",
+    email: "aman@example.com",
+    linkedin: "https://linkedin.com/in/amanchaurasia"
   }
 ];
 
