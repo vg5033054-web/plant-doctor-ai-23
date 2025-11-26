@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Hero } from "@/components/Hero";
 import { ImageUpload } from "@/components/ImageUpload";
 import { DiseaseResults } from "@/components/DiseaseResults";
+import { TeamSection } from "@/components/TeamSection";
 import { useToast } from "@/hooks/use-toast";
 import { supabase } from "@/integrations/supabase/client";
 
@@ -81,6 +82,8 @@ const Index = () => {
       <Hero />
       <ImageUpload onAnalyze={handleAnalyze} isAnalyzing={isAnalyzing} />
       {results && <DiseaseResults data={results} />}
+      
+      <TeamSection />
       
       {/* Footer */}
       <footer className="mt-20 py-8 border-t border-border">
