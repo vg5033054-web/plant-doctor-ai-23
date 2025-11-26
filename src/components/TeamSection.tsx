@@ -4,8 +4,8 @@ import { Card, CardContent } from "@/components/ui/card";
 const teamMembers = [
   {
     name: "Vikash Gupta",
-    email: "vikash@example.com",
-    linkedin: "https://linkedin.com/in/vikashgupta"
+    email: "vg5033054@gmail.com",
+    linkedin: "https://www.linkedin.com/in/vikash-gupta-365a492a3?utm_source=share_via&utm_content=profile&utm_medium=member_android"
   },
   {
     name: "Krishna Singh",
